@@ -2,7 +2,7 @@
 
 
 
-OpenWrap Profile tag looks like below. This code helps publishers to load the profile code in staging environment to test on a given browser using debug query params `pwtv=22` where `pwtv` is the version number of the profile to be loaded on the page.
+OpenWrap Profile tag looks like below. This code helps publishers to load the profile code in staging environment to test on a given browser using debug query params (in address bar) `pwtv=22` where `pwtv` is the version number of the profile to be loaded on the page.
 
 ```
 <script type="text/javascript">
