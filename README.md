@@ -2,7 +2,7 @@
 
 
 
-OpenWrap Profile tag looks like below. This code helps publishers to load the profile code in staging environment to test on a given browser using debug query params `pwtv=22` where pwtv is the version number of the profile to be loaded on the page.
+OpenWrap Profile tag looks like below. This code helps publishers to load the profile code in staging environment to test on a given browser using debug query params `pwtv=22` where `pwtv` is the version number of the profile to be loaded on the page.
 
 ```
 <script type="text/javascript">
@@ -27,7 +27,8 @@ OpenWrap Profile tag looks like below. This code helps publishers to load the pr
 </script>
 ```
 
-ehow.com does not use the above given tag but loads the `pwt.js` through `ehow.js` as following, due to the below code we are unable to run a staging version of a profile 
+ehow.com does not use the above given tag but loads the `pwt.js` through `ehow.js` as following, due to the below code we are unable to run a staging version of a profile to debug
+
 ```
 "openWrap": {
     "desktopUrl": "//ads.pubmatic.com/AdServer/js/pwt/160687/6643/pwt.js",
